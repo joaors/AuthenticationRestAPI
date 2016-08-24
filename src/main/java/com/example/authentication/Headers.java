@@ -1,4 +1,4 @@
-package com.example.autentication;
+package com.example.authentication;
 
 /**
  *

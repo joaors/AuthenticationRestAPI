@@ -1,6 +1,6 @@
 package com.example.filters;
 
-import com.example.autentication.Headers;
+import com.example.authentication.Headers;
 import java.io.IOException;
 import java.util.logging.Logger;
 import javax.ws.rs.container.ContainerRequestContext;

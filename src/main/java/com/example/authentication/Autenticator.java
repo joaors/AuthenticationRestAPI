@@ -1,4 +1,4 @@
-package com.example.autentication;
+package com.example.authentication;
 
 import java.security.GeneralSecurityException;
 import java.util.HashMap;

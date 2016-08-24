@@ -1,7 +1,7 @@
 package com.example.boundary;
 
-import com.example.autentication.Autenticator;
-import com.example.autentication.Headers;
+import com.example.authentication.Autenticator;
+import com.example.authentication.Headers;
 import java.io.Serializable;
 import java.security.GeneralSecurityException;
 import javax.json.Json;
