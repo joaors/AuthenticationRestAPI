@@ -13,10 +13,10 @@ import javax.security.auth.login.LoginException;
  */
 public class Autenticator {
     
-    /* Simula uma tabela do banco */
+    /* Simula uma tabela do banco com os usuarios */
     private final Map<String, String> users = new HashMap();
     
-    /* Simula uma tabela do banco */
+    /* Simula uma tabela do banco com as chaves de acesso */
     private final Map<String, String> keys = new HashMap();
     
     /* Guarda os tokens gerados em tempo de execução */
@@ -29,14 +29,14 @@ public class Autenticator {
          * Guarda o usuário e senha dos clientes da API
          */
         users.put("walter", "white");
-        users.put("jessi", "pinkman");
+        users.put("toni", "soprano");
         
         /**
          * keys são geradas antecipadamente e disponibilizadas para os clientes da API
          * Aqui estamos representando as keys para os dois users pré cadastrados.
          */
-        keys.put( "f80ebc87-ad5c-4b29-9366-5359768df5a1", "walter" );
-        keys.put( "3b91cab8-926f-49b6-ba00-920bcf934c2a", "jessi" );        
+        keys.put( "ece40d50-b22b-4b33-a728-343be730d85e", "walter" );
+        keys.put( "1ee68990-2d56-44a9-ae40-09d0bf074d8d", "toni" );        
     }
     
     public static Autenticator getInstance() {
